@@ -1,8 +1,24 @@
 body {
   font-family: sans-serif;  
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,0,255,1));
+  color: white;
+}
+
+p {
+  font-weight: bold;
 }
 
 .rescue-animals {
   width: 50%;
   height: 500px;
+}
+
+.highlight {
+  color: blue;
+}
+
+.rescue-card {
+  padding: 20px;
+  margin: 40px;
 }
